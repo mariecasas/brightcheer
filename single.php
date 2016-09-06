@@ -8,9 +8,10 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="brightcheer-main" class="row">
+		<div class="col-md-8 col-lg-8">
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main" role="main">
 
 		<?php
 		while ( have_posts() ) : the_post();
@@ -29,7 +30,12 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+		</div><!-- #col-md-8 -->
+		<div class="col-md-4 col-lg-4">
 <?php
 get_sidebar();
+?>
+		</div><!-- #col-md-4 -->
+	</div><!-- #row -->	
+<?php 
 get_footer();

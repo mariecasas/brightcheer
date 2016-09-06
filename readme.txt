@@ -1,7 +1,7 @@
 === Bright Cheer ===
 
-Contributors: automattic
-Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
+Contributors: MarieCasas.com, automattic
+Tags: personal, blog, portfolio, translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
 Tested up to: 4.5.3

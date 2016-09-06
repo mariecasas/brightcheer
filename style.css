@@ -1,9 +1,9 @@
 /*
 Theme Name: Bright Cheer
-Theme URI: http://underscores.me/
+Theme URI: http://www.mariecasas.com
 Author: Marie Casas
-Author URI: http://underscores.me/
-Description: Description
+Author URI: http://www.mariecasas.com
+Description: Blog and Portfolio Theme for Creative Professional
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,6 @@ Text Domain: bright-cheer
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 
 Bright Cheer is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
@@ -265,11 +264,11 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: #256d7b;
+	font-family: 'Merriweather Sans',sans-serif;
 	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.5;
+	font-size: 1rem; 
+	line-height: 1.2;
 }
 
 h1,
@@ -278,10 +277,12 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Merriweather', serif; 
 	clear: both;
 }
 
 p {
+	font-size:14px; 
 	margin-bottom: 1.5em;
 }
 
@@ -420,7 +421,7 @@ input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
-	background: #e6e6e6;
+	background: #00D1FB; 
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
 	color: rgba(0, 0, 0, .8);
 	font-size: 12px;
@@ -506,17 +507,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #256d7b;
 }
 
 a:visited {
-	color: purple;
+	color: #256d7b;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #00D1FB;
 }
 
 a:focus {
@@ -548,6 +549,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding:10px; 
 }
 
 .main-navigation a {
@@ -891,4 +893,63 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*
+## Custom
+*/
+#main-page { 
+	width:1040px; 
+	margin:0 auto; 
+}
+#brightcheer-hero {
+	border-bottom: solid #4bdefc 50px; 	
+}
+#brightcheer-main {
+	padding-top:30px; 	
+}
+
+#brightcheer-sidebar {
+	background:#DFF9FF;
+	padding: 10px; 
+}
+#brightcheer-footer {
+	background:#DFF9FF;
+	margin-top:50px; 
+	margin-bottom:20px;
+	padding: 10px; 
+}
+#footer-sidebar-1 {
+	
+}
+#footer-sidebar-2 {
+	
+}
+#footer-sidebar-3 {
+	
+}
+#site-navigation {
+	font-family: 'Merriweather', serif; 
+	margin-top:20px; 
+	font-size: 14px; 
+}
+.carousel-caption {
+	font-family: 'Merriweather', serif; 
+	color: #00677B;
+	font-size:24px; 
+}
+.carousel-left {
+	float:left;
+}
+.carousel-text {
+	float:left; 
+}
+h1 {
+	font-size:26px;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	font-size:20px;
 }
