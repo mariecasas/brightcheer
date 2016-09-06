@@ -22,6 +22,11 @@ Version 1.0
 
 For future updates/reference:
 * 404 template
+* Get Featured Image in Archive, Category, and Single post
+* Format List, e.g. "Recent Posts"
+* Format Single post, previous, next
+* Format Archive list, "Posted in Category_Name", "Leave a Comment"
+* Change color of link to black or dark gray and remove underline
 * A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
 * Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
 * Some small tweaks in `inc/extras.php` that can improve your theming experience.
